@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>판매자 가입 신청 | 싱그러운 집</title>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/seller.css">
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="./js/seller_script.js" defer></script>
+</head>
+<body>
+ <div class="wrap">
+  <header id="header">
+   <div class="container">
+    <div class="sns">
+     <ul>
+      <li><a href="#"><img src="./img/sns_google.png" alt="x"></a></li>
+      <li><a href="#"><img src="./img/sns_apple.png" alt="x"></a></li>
+      <li><a href="#"><img src="./img/sns_instagram.png" alt="x"></a></li>
+      <li><a href="#"><img src="./img/sns_facebook.png" alt="x"></a></li>
+      <li><a href="#"><img src="./img/sns_kakao.png" alt="x"></a></li>
+      <li><a href="#"><img src="./img/sns_youtube.png" alt="x"></a></li>
+     </ul>
+    </div><!-- sns end -->
+    <div class="login">
+     <ul>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="joinu.html">회원가입</a></li>
+      <li><a href="#">판매자 신청</a></li>
+     </ul>
+    </div><!-- login end -->
+   </div><!-- header container end -->
+  </header><!-- header end -->
+  <section? id="contents">
+   <div class="container">
+    <div class="logo">
+     <p><img src="./img/logo.png" alt="x"><span>판매자 가입 신청</span></p>
+     <p>자연을 그리워하는 마음과 건강한 삶을 추구하는 현대인을 위한 라이프 스타일을 기초로 탄생하였습니다.</p>
+     <p>고객분들과 함께 싱그러움을 만나보세요!</p>
+    </div><!-- logo end -->
+    <div class="order">
+     <p>입점 진행 순서 및 상품 등록 판매 과정</p>
+     <p><span>1. 판매자 가입 신청 > 2. 입점등록(본사등록) > 3. 임시비밀번호 발급(입점사별) > 4. 상품등록 > 5. 상품 승인(본사진행) > 6. 상품판매</span></p>
+    </div><!-- order end -->
+    <form action="" method="post">
+     <div class="seller">
+      <p class="tit">판매자 기본정보</p><!-- seller tit end -->
+      <div class="seller_box">
+       <ul>
+        <li class="bg">* 업체명</li>
+        <li><input type="text"></li>
+        <li class="bg">* 사업자등록증 사본</li>
+        <li><input type="text" class="upload1"><label class="business" for="file1">파일첨부</label><input type="file" id="file1"></li>
+       </ul>
+       <ul>
+        <li class="bg">* 주민(법인)번호</li>
+        <li><p><input type="radio" name="radio1" id="a1"><label for="a1"> 개인</label></p><p><input type="radio" name="radio1" id="a1"><label for="a1"> 법인</label></p><input type="text"></li>
+        <li class="bg">* 업태/업종</li>
+        <li><input type="text" placeholder="업태"><input type="text" placeholder="업종"></li>
+       </ul>
+      </ul>
+      <ul>
+       <li class="bg">* 대표자</li>
+       <li><input type="text"></li>
+       <li class="bg">* 통신판매신고증</li>
+       <li><input type="text" class="upload2"><label class="business" for="file2">파일첨부</label><input type="file" id="file2"></li>
+      </ul>
+      <ul>
+       <li class="bg">* 연락처</li>
+       <li class="num"><input type="text"><input type="text"><input type="text"></li>
+       <li class="bg">* 관리자 아이디</li>
+       <li><input type="text" placeholder="20자 이내로 입력해주세요"></li>
+      </ul>
+      <ul>
+       <li class="bg">* 닉네임</li>
+       <li><input type="text" placeholder="상호(회사명)이 아니어도 관계 없습니다."></li>
+       <li class="bg">* 판매종류</li>
+       <li><p><input type="radio" name="radio2" id="b1"><label for="b1"> 일반</label></p></li>
+      </ul>
+      <ul>
+       <li class="bg">* 사업장 주소</li>
+       <li><p class="address"><input type="text" placeholder="우편번호"><label class="business" for="file3">우편번호검색</label><input type="file" id="file3"></p><input type="text" placeholder="주소"><input type="text" placeholder="상세주소"></li>
+      </ul>
+      </div><!-- seller_box end -->
+     </div><!-- seller end -->
+     <div class="manager">
+      <p class="tit">담당자 정보<span>연락 가능한 대표 이메일과 연락처를 기재해주시기 바랍니다.</span></p><!-- manager tit end -->
+      <div class="manager_box">
+       <ul>
+        <li class="bg">* 물류 담당자</li>
+        <li><input type="text"></li>
+        <li class="bg">* 물류 담당자 이메일</li>
+        <li><input type="text"></li>
+        <li class="bg">* 물류 담당자 연락처</li>
+        <li><input type="text" placeholder="전화번호"><input type="text" placeholder="휴대폰번호"></li>
+       </ul>
+       <ul>
+        <li class="bg">CS 담당자</li>
+        <li><input type="text"></li>
+        <li class="bg">CS 담당자 이메일</li>
+        <li><input type="text"></li>
+        <li class="bg">CS 담당자 연락처</li>
+        <li><input type="text" placeholder="전화번호"><input type="text" placeholder="휴대폰번호"></li>
+       </ul>
+       <ul>
+        <li class="bg">담당 MD</li>
+        <li><input type="text"></li>
+        <li class="bg">담당 MD 이메일</li>
+        <li><input type="text"></li>
+        <li class="bg">담당 MD 연락처</li>
+        <li><input type="text" placeholder="전화번호"><input type="text" placeholder="휴대폰번호"></li>
+       </ul>
+       <ul>
+        <li class="bg">정산 담당자</li>
+        <li><input type="text"></li>
+        <li class="bg">정산 담당자 이메일</li>
+        <li><input type="text"></li>
+        <li class="bg">정산 담당자 연락처</li>
+        <li><input type="text" placeholder="전화번호"><input type="text" placeholder="휴대폰번호"></li>
+       </ul>
+      </div><!-- manager_box end -->
+     </div><!-- manager end -->
+     <div class="charge">
+      <p class="tit">정산에 필요한 정보</p><!-- charge tit end -->
+      <div class="charge_box">
+       <ul>
+        <li class="bg">* 은행명</li>
+        <li><input type="text"></li>
+        <li class="bg">* 예금주</li>
+        <li><input type="text"></li>
+       </ul>
+       <ul>
+        <li class="bg">* 계좌번호</li>
+        <li><input type="text"></li>
+        <li class="bg">* 통장(계좌) 사본</li>
+        <li class="account"><input type="text" class="upload4"><label class="business" for="file4">파일첨부</label><input type="file" id="file4"></li>
+       </ul>
+       <p>· 모든 서류 제출이 완료된 시점 기준 3일(영업일) 이내 심사가 진행됩니다.<br>
+       · 입점과 관련해 궁금한 사항이 있으시면 아래 연락처를 통해 문의해 주시면 빠르게 처리해 드리겠습니다.<br>
+       · 싱그러운 집 이메일: shouse_official@naver.com<br>
+       · 대표번호: 1899-9137<br>
+       · 업무시간: 오전 9시부터 오후 6시까지</p>
+      </div><!-- charge_box end -->
+     </div><!-- charge end -->
+     <div class="agree">
+      <p class="tit">약관동의</p><!-- agree tit end -->
+      <div class="agree_box">
+       <ul>
+        <li><p><label for="agree1">전체 동의</label><input type="checkbox" id="agree1"></p></li>
+        <li><p><label for="agree2">판매회원 이용약관<span>(필수)</span></label><input type="checkbox" id="agree2"></p></li>
+        <li><p><label for="agree3">개인정보처리방침<span>(필수)</span></label><input type="checkbox" id="agree3"></p></li>
+       </ul>
+      </div>
+      <p>필수 동의 항목입니다.</p>
+     </div><!-- agree end -->
+     <div class="confirm">
+      <button class="cancle" onclick="location.href='index.html'">취소</button>
+      <button class="send" onclick="location.href='index.html'">신청하기</button>
+     </div><!-- confirm end -->
+   </form>
+   </div><!-- contents container end -->
+  </section><!-- contents end -->
+ </div><!-- wrap end -->
+</body>
+</html>

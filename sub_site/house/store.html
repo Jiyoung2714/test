@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>쇼핑 홈 | 싱그러운 집</title>
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+ <script src="./js/script.js" defer></script>
+ <script src="./js/common.js" defer></script>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/store.css">
+</head>
+<body>
+ <div class="scroll_top"><p>Top</p></div>
+ <!-- scroll_top end -->
+ <div class="wrap">
+  <header id="header">
+   <div class="h_top">
+    <div class="container">
+     <div class="sns">
+      <ul>
+       <li><a href="#"><img src="./img/sns_google.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_apple.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_instagram.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_facebook.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_kakao.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_youtube.png" alt="x"></a></li>
+      </ul>
+     </div>
+     <!-- sns end -->
+     <div class="login">
+      <ul>
+       <li><a href="login.html">로그인</a></li>
+       <li><a href="joinus.html">회원가입</a></li>
+       <li><a href="seller.html">판매자 신청</a></li>
+      </ul>
+     </div>
+     <!-- login end -->
+    </div>
+    <!-- h_top container end -->
+   </div>
+   <!-- h_top end -->
+   <div class="h_bottom">
+    <div class="container">
+     <div class="logo">
+      <a href="index.html"><img src="./img/logo.png" alt="x"></a>
+     </div>
+     <!-- logo end -->
+     <div class="menu_wrap">
+      <ul>
+       <li><img class="sub_btn" src="./img/menu_b.png" alt="x"><img class="sub_btn_gr" src="./img/menu_g.png" alt="x"></li>
+       <li><a href="./index.html">홈</a></li>
+       <li class="gr"><a href="./store.html">스토어</a></li>
+       <li><a href="./commu.html">커뮤니티</a></li>
+       <li><a href="./trip.html">싱그런 여행</a></li>
+       <li><a href="./interior.html">인테리어/시공</a></li>
+       <li><a href="./market.html">식물마켓</a></li>
+      </ul>
+     </div>
+     <!-- menu_wrap end -->
+     <div class="submenu_wrap">
+      <div class="container">
+       <div class="submenu">
+        <ul>
+         <li><a href="./store.html">스토어</a></li>
+         <li><a href="#">카테고리</a>
+          <ul>
+           <li><a href="#">반려식물</a></li>
+           <li><a href="#">가드닝용품</a></li>
+           <li><a href="#">강아지용품</a></li>
+           <li><a href="#">고양이용품</a></li>
+           <li><a href="#">파충류용품</a></li>
+           <li><a href="#">물고기용품</a></li>
+           <li><a href="#">인테리어</a></li>
+           <li><a href="#">DIY/취미</a></li>
+           <li><a href="#">기타</a></li>
+           <li><a href="#">싱그러운딜</a></li>
+          </ul>
+         </li>
+         <li><a href="#">베스트</a></li>
+         <li><a href="#">기획전</a></li>
+         <li><a href="#">이벤트</a></li>
+        </ul>
+        <ul>
+         <li><a href="./commu.html">커뮤니티</a></li>
+         <li><a href="#">스토리</a>
+          <ul>
+           <li><a href="#">희귀식물</a></li>
+           <li><a href="#">반려식물</a></li>
+           <li><a href="#">가드닝용품</a></li>
+           <li><a href="#">반려동물</a></li>
+           <li><a href="#">인테리어</a></li>
+           <li><a href="#">싱그런 여행</a></li>
+           <li><a href="#">친환경라이프</a></li>
+          </ul>
+         </li>
+         <li><a href="#">싱싱튜브</a></li>
+         <li><a href="#">가이드</a></li>
+         <li><a href="#">매거진</a></li>
+         <li><a href="#">인테리어/시공</a></li>
+        </ul>
+        <ul>
+         <li><a href="./trip.html">싱그런 여행</a></li>
+        </ul>
+        <ul>
+         <li><a href="./interior.html">인테리어/시공</a></li>
+        </ul>
+        <ul>
+         <li><a href="./market.html">식물마켓</a></li>
+        </ul>
+       </div>
+       <!-- submenu container end -->
+      </div>
+      <!-- submenu end -->
+     </div>
+     <!-- submenu_wrap end -->
+     <div class="mypage">
+      <ul>
+       <li><a href="#"><img src="./img/login.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/cart.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/info.png" alt="x"></a></li>
+       <li class="search"><input type="text" placeholder="싱그러움을 검색하세요"><a href="#"></a><img src="./img/search.png" alt="x"></a></li>
+      </ul>
+     </div>
+     <!-- mypage end -->
+    </div>
+    <!-- h_bottom container end -->
+   </div>
+   <!-- h_bottom end -->
+  </header>
+  <!-- header end -->
+
+  <div class="container">
+    <nav id="banner">
+      <div class="swiper mySwiper slide_wrap">
+        <div class="swiper-wrapper slide">
+          <div class="swiper-slide slide_box"><a href="#"><img src="./img/store_banner_1.jpg" alt="x"></a></div>
+          <div class="swiper-slide slide_box"><a href="#"><img src="./img/store_banner_2.jpg" alt="x"></a></div>
+          <div class="swiper-slide slide_box"><a href="#"><img src="./img/store_banner_3.jpg" alt="x"></a></div>
+          <div class="swiper-slide slide_box"><a href="#"><img src="./img/store_banner_4.jpg" alt="x"></a></div>
+          <div class="swiper-slide slide_box"><a href="#"><img src="./img/store_banner_5.jpg" alt="x"></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper("#banner .mySwiper", {
+          autoplay:{delay:3000},
+          loop:true,
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          
+        });
+      </script><!-- slide_wrap end -->
+    </nav><!-- banner end -->
+    <section id="contents">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper con1">
+          <a class="swiper-slide" href="#">
+           <ul>
+              <li><img src="./img/store_event_1.png" alt="x"></li>
+             <li><p>반려식물</p></li>
+            </ul>
+          </a>
+          <a class="swiper-slide" href="#">
+            <ul>
+              <li><img src="./img/store_event_2.png" alt="x"></li>
+              <li><p>가드닝용품</p></li>
+            </ul>
+          </a>
+          <a class="swiper-slide" href="#">
+            <ul>
+             <li><img src="./img/store_event_3.png" alt="x"></li>
+              <li><p>강아지 용품</p></li>
+            </ul>
+          </a>
+          <a class="swiper-slide" href="#">
+            <ul>
+              <li><img src="./img/store_event_4.png" alt="x"></li>
+              <li><p>고양이 용품</p></li>
+            </ul>
+          </a>
+          <a class="swiper-slide" href="#">
+            <ul>
+              <li><img src="./img/store_event_5.png" alt="x"></li>
+              <li><p>파충류 용품</p></li>
+            </ul>
+          </a>
+          <a class="swiper-slide" href="#">
+            <ul>
+              <li><img src="./img/store_event_6.png" alt="x"></li>
+              <li><p>물고기 용품</p></li>
+            </ul>
+          </a>
+          <a class="swiper-slide" href="#">
+            <ul>
+              <li><img src="./img/store_event_7.png" alt="x"></li>
+              <li><p>인테리어</p></li>
+            </ul>
+          </a>
+          <a class="swiper-slide" href="#">
+            <ul>
+              <li><img src="./img/store_event_8.png" alt="x"></li>
+              <li><p>DIY/취미</p></li>
+            </ul>
+          </a>
+          <a class="swiper-slide" href="#">
+            <ul>
+              <li><img src="./img/store_event_9.jpg" alt="x"></li>
+              <li><p>100원딜</p></li>
+            </ul>
+          </a>
+          <a class="swiper-slide" href="#">
+            <ul>
+              <li><img src="./img/store_event_10.png" alt="x"></li>
+              <li><p>기타</p></li>
+            </ul>
+          </a>
+        </div><!-- con1 end -->
+      </div><!-- con1 mySwiper end -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper("#contents .mySwiper", {
+      slidesPerView: 8,
+      spaceBetween: 30,
+      freeMode: true,
+    });
+  </script>
+      <div class="con2">
+        <div class="tit">
+          <p class="t1">지금 꼭 사야하는 BEST 추천상품</p>
+          <p class="t2">더보기 ></p>
+        </div><!-- con2 title end -->
+        <div class="best">
+          <a href="#">
+            <ul>
+              <li class="best_img"><img src="./img/store_con2_1.jpg" alt="x"></li>
+              <li><p>참죽 등나무 조화나무 인조나무 인테리어 화분 장식</p></li>
+              <li><p class="p1">15%</p><p class="p2">69,900</p><p class="p3">59,900</p></li>
+            </ul>
+          </a>
+          <a href="#">
+            <ul>
+              <li class="best_img"><img src="./img/store_con2_2.jpg" alt="x"></li>
+              <li><p>졸업식 입학식 꽃풍선 꽃다발 선물 판다 LED 벌룬 프리저브드</p></li>
+              <li><p class="p3">20,900</p></li>
+            </ul>
+          </a>
+          <a href="#">
+            <ul>
+              <li class="best_img"><img src="./img/store_con2_3.jpg" alt="x"></li>
+              <li><p>심플 드레스룸 시스템행거 600x400x2000 1단</p></li>
+              <li><p class="p1">50%</p><p class="p2">398,000</p><p class="p3">199,000</p></li>
+            </ul>
+          </a>
+          <a href="#">
+            <ul>
+              <li class="best_img"><img src="./img/store_con2_4.jpg" alt="x"></li>
+              <li><p>벌룬플라워 꽃다발 대형 기념일 생일 졸업식 환갑 선물</p></li>
+              <li><p class="p3">24,900</p></li>
+            </ul>
+          </a>
+          <a href="#">
+            <ul>
+              <li class="best_img"><img src="./img/store_con2_5.jpg" alt="x"></li>
+              <li><p>플로리스 우디 나인 화분 받침 받침대</p></li>
+              <li><p class="p1">22%</p><p class="p2">54,900</p><p class="p3">42,900</p></li>
+            </ul>
+          </a>
+          <a href="#">
+            <ul>
+              <li class="best_img"><img src="./img/store_con2_6.jpg" alt="x"></li>
+              <li><p>플랜트박스 다육이팔레트 홈가드닝세트</p></li>
+              <li><p class="p1">17%</p><p class="p2">17,900</p><p class="p3">14,900</p></li>
+            </ul>
+          </a>
+          <a href="#">
+            <ul>
+              <li class="best_img"><img src="./img/store_con2_7.jpg" alt="x"></li>
+              <li><p>심플 드레스룸 시스템행거 800x400x2000 1단</p></li>
+              <li><p class="p1">50%</p><p class="p2">518,000</p><p class="p3">259,000</p></li>
+            </ul>
+          </a>
+          <a href="#">
+            <ul>
+              <li class="best_img"><img src="./img/store_con2_8.jpg" alt="x"></li>
+              <li><p>(도트캣) POP 스크래처 (티비)</p></li>
+              <li><p class="p1">26%</p><p class="p2">27,900</p><p class="p3">20,900</p></li>
+            </ul>
+          </a>
+        </div><!-- con2 best end -->
+      </div><!-- con2 end -->
+      <div class="con3">
+        <div class="tit">
+          <p class="t1">함께 하면 좋은 싱그러운 연관상품</p>
+        </div><!-- con3 title end -->
+        <div class="relate">
+          <a href="#">
+            <ul>
+              <li class="relate_img"><img src="./img/store_con3_1.jpg" alt="x"><p><img class="scrap" src="./img/scrap.png" alt="x"></p></li>
+              <li><p>에코 원형 분리수거함/황마 다용도함 수납바구니</p></li>
+              <li><p class="p1">20%</p><p class="p2">9,000</p><p class="p3">7,200</p></li>
+            </ul>
+          </a>
+          <a href="#">
+            <ul>
+              <li class="relate_img"><img src="./img/store_con3_2.jpg" alt="x"><p><img class="scrap" src="./img/scrap.png" alt="x"></p></li>
+              <li><p>LED 별쿠션 크리스마스선물 연말선물</p></li>
+              <li><p class="p1">20%</p><p class="p2">15,000</p><p class="p3">12,200</p></li>
+            </ul>
+          </a>
+          <a href="#">
+            <ul>
+              <li class="relate_img"><img src="./img/store_con3_3.jpg" alt="x"><p><img class="scrap" src="./img/scrap.png" alt="x"></p></li>
+              <li><p>엠펫 미들 코너 캣타워 (BC-02)</p></li>
+              <li><p class="p1">19%</p><p class="p2">92,800</p><p class="p3">76,200</p></li>
+            </ul>
+          </a>
+          <a href="#">
+            <ul>
+              <li class="relate_img"><img src="./img/store_con3_4.jpg" alt="x"><p><img class="scrap" src="./img/scrap.png" alt="x"></p></li>
+              <li><p>엠펫 스테이블 캣타워 (H-1126)</p></li>
+              <li><p class="p1">24%</p><p class="p2">196,000</p><p class="p3">150,200</p></li>
+            </ul>
+          </a>
+        </div><!-- con3 relate end -->
+      </div><!-- con3 end -->
+      <div class="con4">
+        <div class="tit">
+          <p class="t1">싱그러움을 만드는 HOT 인기상품</p>
+        </div><!-- con4 title end -->
+        <div class="hot">
+          <a href="#">
+            <ul>
+              <li class="hot_imh"><img src="" alt=""></li>
+              <li><p class="p1"></p><p class="p2"></p><p class="p3"></p></li>
+            </ul>
+          </a>
+        </div><!-- con4 hot end -->
+      </div><!-- con4 end -->
+    </section><!-- contents end -->
+  </div><!-- banner,contents container end -->
+
+  <footer id="footer">
+   <div class="container">
+    <div class="f1">
+     <ul>
+      <li>고객문의 : cs@cona.world</li>
+      <li><span>|</span></li>
+      <li>제휴문의 : cooperate@cona.world</li>
+     </ul>
+    </div>
+    <!-- f1 end -->
+    <div class="f2">
+     <ul>
+      <li><a href="#">공지사항</a></li>
+      <li><span>></span></li>
+      <li><a href="#">브랜드 스토리</a></li>
+      <li><span>></span></li>
+      <li><a href="#">개인정보처리방침</a></li>
+      <li><span>></span></li>
+      <li><a href="#">서비스 이용약관</a></li>
+      <li><span>></span></li>
+      <li><a href="#">고객상담</a></li>
+      <li><span>></span></li>
+      <li><a href="seller.html">판매자 신청</a></li>
+      <li><span>></span></li>
+      <li><a href="#">사업자 구매회원 신청</a></li>
+      <li><span>></span></li>
+     </ul>
+    </div>
+    <!-- f2 end -->
+    <div class="f3">
+     <ul>
+      <li>대표번호 : 1899-9137 | 주식회사 코나 | 대표이사 : 김라희 | <a href="#">사업자 정보확인</a></li>
+      <li>주소 : 대구광역시 수성구 알파시티1로 36, 7층(대흥동) | 
+       사업자등록번호 : 532-87-01550 | 통신판매업신고번호 : 2020-대구수성구-0872 | Copyright©싱그러운 집 ALL RIGHTS RESERVED.</li>
+       <li>개인정보보호책임자 : 구병모 | 호스팅 제공자 : 주식회사 가비아씨엔에스
+       </li>
+     </ul>
+    </div>
+    <!-- f3 end -->
+    <div class="f4">
+     <p>NICEPAY 안전거래 서비스 : 고객님의 안전거래를 위해 현금 결제 시, 저희 사이트에서 가입한 구매안전 서비스를 이용할 수 있습니다. <a href="#">가입 확인</a></p>
+     <p>㈜코나는 통신판매중개자로서 통신판매의 당사자가 아니며, 입점업체가 등록한 상품, 상품정보 및 거래에 대하여 ㈜코나에서는 일체 책임을 지지 않습니다.</p>
+    </div>
+    <!-- f4 end -->
+   </div>
+   <!-- footer container end -->
+  </footer>
+  <!-- footer end -->
+ </div>
+ <!-- wrap end -->
+</body>
+</html>

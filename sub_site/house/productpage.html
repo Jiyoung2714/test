@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="./js/common.js" defer></script>
+ <script src="./js/productpage_script.js" defer></script>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/productpage.css">
+</head>
+<body>
+ <div class="wrap">
+  <header id="header">
+   <div class="h_top">
+    <div class="container">
+     <div class="sns">
+      <ul>
+       <li><a href="#"><img src="./img/sns_google.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_apple.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_instagram.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_facebook.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_kakao.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_youtube.png" alt="x"></a></li>
+      </ul>
+     </div>
+     <!-- sns end -->
+     <div class="login">
+      <ul>
+       <li><a href="login.html">로그인</a></li>
+       <li><a href="joinus.html">회원가입</a></li>
+       <li><a href="seller.html">판매자 신청</a></li>
+      </ul>
+     </div>
+     <!-- login end -->
+    </div>
+    <!-- h_top container end -->
+   </div>
+   <!-- h_top end -->
+   <div class="h_bottom">
+    <div class="container">
+     <div class="logo">
+      <a href="index.html"><img src="./img/logo.png" alt="x"></a>
+     </div>
+     <!-- logo end -->
+     <div class="menu_wrap">
+      <ul>
+       <li><img class="sub_btn" src="./img/menu_b.png" alt="x"><img class="sub_btn_gr" src="./img/menu_g.png" alt="x"></li>
+       <li><a href="./index.html">홈</a></li>
+       <li><a href="./store.html">스토어</a></li>
+       <li><a href="./commun.html">커뮤니티</a></li>
+       <li><a href="./trip.html">싱그런 여행</a></li>
+       <li><a href="./interior.html">인테리어/시공</a></li>
+       <li class="gr"><a href="./market.html">식물마켓</a></li>
+      </ul>
+     </div>
+     <!-- menu_wrap end -->
+     <div class="submenu_wrap">
+      <div class="container">
+       <div class="submenu">
+        <ul>
+         <li><a href="./store.html">스토어</a></li>
+         <li><a href="#">카테고리</a>
+          <ul>
+           <li><a href="#">반려식물</a></li>
+           <li><a href="#">가드닝용품</a></li>
+           <li><a href="#">강아지용품</a></li>
+           <li><a href="#">고양이용품</a></li>
+           <li><a href="#">파충류용품</a></li>
+           <li><a href="#">물고기용품</a></li>
+           <li><a href="#">인테리어</a></li>
+           <li><a href="#">DIY/취미</a></li>
+           <li><a href="#">기타</a></li>
+           <li><a href="#">싱그러운딜</a></li>
+          </ul>
+         </li>
+         <li><a href="#">베스트</a></li>
+         <li><a href="#">기획전</a></li>
+         <li><a href="#">이벤트</a></li>
+        </ul>
+        <ul>
+         <li><a href="./commun.html">커뮤니티</a></li>
+         <li><a href="#">스토리</a>
+          <ul>
+           <li><a href="#">희귀식물</a></li>
+           <li><a href="#">반려식물</a></li>
+           <li><a href="#">가드닝용품</a></li>
+           <li><a href="#">반려동물</a></li>
+           <li><a href="#">인테리어</a></li>
+           <li><a href="#">싱그런 여행</a></li>
+           <li><a href="#">친환경라이프</a></li>
+          </ul>
+         </li>
+         <li><a href="#">싱싱튜브</a></li>
+         <li><a href="#">가이드</a></li>
+         <li><a href="#">매거진</a></li>
+         <li><a href="#">인테리어/시공</a></li>
+        </ul>
+        <ul>
+         <li><a href="./trip.html">싱그런 여행</a></li>
+        </ul>
+        <ul>
+         <li><a href="./interior.html">인테리어/시공</a></li>
+        </ul>
+        <ul>
+         <li><a href="./market.html">식물마켓</a></li>
+        </ul>
+       </div>
+       <!-- submenu container end -->
+      </div>
+      <!-- submenu end -->
+     </div>
+     <!-- submenu_wrap end -->
+     <div class="mypage">
+      <ul>
+       <li><a href="#"><img src="./img/login.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/cart.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/info.png" alt="x"></a></li>
+       <li class="search"><input type="text" placeholder="싱그러움을 검색하세요"><a href="#"></a><img src="./img/search.png" alt="x"></a></li>
+      </ul>
+     </div>
+     <!-- mypage end -->
+    </div>
+    <!-- h_bottom container end -->
+   </div>
+   <!-- h_bottom end -->
+  </header><!-- header end -->
+  <div class="container">
+   <section id="contents">
+    <div class="product_wrap">
+     <div class="pro_img">
+      <div class="img">
+       <div class="img_box">
+        <a href="#"><img src="./img/productpage_img1.jpeg" alt="x"><p><img src="./img/scrap.png" alt="x"></p></a>
+       </div><!-- img_box1 end -->
+      </div><!-- img end -->
+      <div class="sub_img">
+       <img src="./img/productpage_img1.jpeg" alt="x">
+       <img src="./img/productpage_img2.jpeg" alt="x">
+       <img src="./img/productpage_img3.jpeg" alt="x">
+       <img src="./img/productpage_img4.jpeg" alt="x">
+       <img src="./img/productpage_img5.jpeg" alt="x">
+      </div><!-- sub_img end -->
+     </div><!-- product img end -->
+     <div class="pro_info">
+      <div class="info1">
+       <p>화병 침실등 오로라 무선 특이한무드등 감성 크리스탈 조명 라바램프 친구집들이선물</p>
+       <ul class="review">
+        <li><img src="./img/star_on.png" alt="x"><p>5</p><span>(10)</span></li>
+        <li><p><img src="./img/state_share.png" alt="x"><span>0</span><img src="./img/state_like.png" alt="x"><span>0</span></p></li>
+       </ul>
+       <ul class="price">
+        <li><p>29,900</p><span>16,500</span></li>
+        <li class="sale">45%</li>
+       </ul>
+      </div><!-- info1 end -->
+      <div class="info2">
+       <ul>
+        <li class="tit">등급별 적립 혜택</li>
+        <li class="add">자세히 ></li>
+       </ul><!-- b1 end -->
+       <ul>
+        <li class="tit">적립 혜택</li>
+        <li class="txt">구매 165원 | 후기<span>우측 '자세히'참조</span></li>
+        <li class="add">자세히 ></li>
+       </ul><!-- b2 end -->
+       <ul class="b3">
+        <li class="tit">배송</li>
+        <li class="txt"><p class="t1"><select name="b2" id="b2">
+         <option value="b2">CJ대한통운(주문 시 결제)</option>
+        </select><p>CJ대한통운<span>(주문 시 결제)</span></p></p><p>2,500원<span>(60,000원 이상 무료)</span></p><p>추가배송비 3,000원<span>(지역별)</span></p></li>
+        <li class="add">자세히 ></li>
+       </ul><!-- b3 end -->
+       <ul>
+        <li class="tit">상품정보</li>
+        <li class="txt"><p><span>우측 '자세히'참조</span></p></li>
+        <li class="add">자세히 ></li>
+       </ul><!-- b4 end -->
+       <ul>
+        <li class="tit">모델명</li>
+        <li class="txt2"><p>전등갓 침실등 취침등 오로라 무선 특이한무드등 감성 크리스탈 조명 라바램프 친구집들이선물</p></li>
+       </ul><!-- b5 end -->
+       <ul>
+        <li class="tit">브랜드</li>
+        <li class="txt2"><p>오로드</p></li>
+       </ul><!-- b6 end -->
+       <ul class="b7">
+        <li class="tit">원산지</li>
+        <li class="txt2"><p>중국(오로드협력업체)</p></li>
+       </ul><!-- b7 end -->
+      </div><!-- info2 end -->
+      <div class="info3">
+        <form action="" method="post">
+          <ul class="size">
+            <li><select name="size" id="size">
+              <option value="size1">- 사이즈 선택 -</option>
+              <option value="size2">작은거</option>
+              <option value="size3">큰거(+9,000원)</option>
+            </select></li>
+            <li><select name="option" id="option">
+              <option value="option1">- 사은품 선택 -</option>
+              <option value="option2">백색등(건전지 꼬옹~짜)</option>
+              <option value="option3">적색등(건전지 꼬옹~짜)</option>
+              <option value="option4">두개 다 원해요!(추가 1,000원)</option>
+            </select><p>+</p></li>
+            <li><button>위의 정보로 선택</button></li>
+          </ul><!-- size end -->
+          <ul class="charge">
+            <li><p>총 상품금액</p></li>
+            <li><span>16,500 원</span></li>
+          </ul><!-- charge end -->
+          <ul class="btn">
+            <li><button type="button" class="cart">장바구니</button></li>
+            <li><button type="button" class="buy">구매하기</button></li>
+          </ul><!-- btn end -->
+        </form>
+      </div><!-- info3 end -->
+     </div><!-- product info end -->
+    </div><!-- product_wrap end -->
+    <div class="page_wrap">
+      <div class="page_menu">
+        <ul>
+          <li class="page_active">상품정보</li>
+          <li>리뷰(<span>0</span>)</li>
+          <li>문의</li>
+          <li>배송/환불</li>
+          <li>판매자정보</li>
+        </ul>
+      </div><!-- page_menu end -->
+      <div class="page">
+        <div class="tit"><p>상품정보</p></div><!-- page tit end -->
+        <div class="page_img">
+          <img src="./img/page_img1.jpg" alt="x"><img src="./img/page_img2.jpg" alt="x">
+        </div><!-- page_img end -->
+        <div class="page_plus"><p>+ 상품정보 더보기</p></div><!-- page_plus end -->
+      </div><!-- page end -->
+      <div class="review">
+        <div class="tit">
+          <p class="t1">리뷰<span>0</span></p>
+          <p class="t2">리뷰작성</p>
+        </div><!-- review tit end -->
+        <div class="review_box">
+          <ul class="r1">
+            <li><img src="./img/star_on.png" alt="x"><span>5</span></li>
+          </ul><!-- r1 end -->
+          <ul class="r2">
+            <li><span>5점</span><p class="line b1"></p><span>10</span></li>
+            <li><span>4점</span><p class="line"></p><span>0</span></li>
+            <li><span>3점</span><p class="line"></p><span>0</span></li>
+            <li><span>2점</span><p class="line"></p><span>0</span></li>
+            <li><span>1점</span><p class="line"></p><span>0</span></li>
+          </ul><!-- r2 end -->
+          <ul class="r3">
+            <li><p>제품 및 응대</p><img src="./img/star_on.png" alt="x"></li>
+            <li><p>배송</p><img src="./img/star_on.png" alt="x"></li>
+            <li><p>포장</p><img src="./img/star_on.png" alt="x"></li>
+          </ul><!-- r3 end -->
+        </div><!-- review_box end -->
+      </div><!-- review end -->
+      <div class="r_list">
+        <ul>
+         <li><a href="#"><img src="./img/id_img1.jpg" alt="x"><p>buyer_id</p></a><p>★<span>0</span></p></li>
+         <li><span>2024.04.03</span></li>
+        </ul>
+        <ul>
+         <li>제품및 응대<p>★<span>0</span></p></li>
+         <li>배송<p>★<span>0</span></p></li>
+         <li>제품및 응대<p>★<span>0</span></p></li>
+        </ul>
+        <ul class="review_img">
+         <li><img src="./img/productpage_img1.jpeg" alt="x"></li>
+         <li><img src="./img/productpage_img2.jpeg" alt="x"></li>
+        </ul>
+        <ul class="review_txt">
+         <li>상품 구매후기 관련 텍스트 입니다.</li>
+        </ul>
+        <ul class="review_help">
+         <li><p>도움</p></li>
+         <li><p>0명에게 도움이 되었습니다.</p></li>
+        </ul>
+       </div><!-- r_list1 end -->
+       <div class="r_list">
+        <ul>
+         <li><a href="#"><img src="./img/id_img2.jpeg" alt="x"><p>buyer_id</p></a><p>★<span>0</span></p></li>
+         <li><span>2024.04.03</span></li>
+        </ul>
+        <ul>
+         <li>제품및 응대<p>★<span>0</span></p></li>
+         <li>배송<p>★<span>0</span></p></li>
+         <li>제품및 응대<p>★<span>0</span></p></li>
+        </ul>
+        <ul class="review_img">
+         <li><img src="./img/productpage_img3.jpeg" alt="x"></li>
+         <li><img src="./img/productpage_img4.jpeg" alt="x"></li>
+        </ul>
+        <ul class="review_txt">
+         <li>상품 구매후기 관련 텍스트 입니다.</li>
+        </ul>
+        <ul class="review_help">
+         <li><p>도움</p></li>
+         <li><p>0명에게 도움이 되었습니다.</p></li>
+        </ul>
+       </div><!-- r_list2 end -->
+       <div class="qa_wrap">
+          <div class="tit">
+           <p class="t1">문의<span>0</span></p>
+           <p class="t2">문의하기</p>
+          </div><!-- qa_wrap_tit end -->
+          <div class="qa">
+            <div class="question">
+             <ul class="q1">
+              <li><a href="#"><img src="./img/id_img1.jpg" alt="x"><p>buyer_id</p></a><p>★<span>0</span></p></li>
+             <li><span>2024.04.03</span></li>
+             </ul>
+             <ul class="q2">
+              <li>옵션 : product_item</li>
+             </ul>
+             <ul class="q3">
+              <li><p>[상품]<span>재입고</span></p></li>
+              <li>상품문의 텍스트</li>
+             </ul>
+             <ul class="q4">
+              <li><p>상품</p><span>답변</span></li>
+             </ul>
+            </div><!-- question end -->
+            <div class="answer section">
+              <ul>
+                <li class="tit"><p>판매자</p><span>2024.04.04</span></li>
+                <li class="id">안녕하세요.<span>seller_id</span>입니다.</li>
+                <li class="seller">판매자 답변 텍스트</li>
+              </ul>
+            </div><!-- answer end -->
+           </div><!-- qa ends -->
+       </div><!-- qa_wrap end -->
+       <div class="delivery">
+          <p class="tit">배송/교환/환불</p>
+         <div class="delivery_box">배송/교환/환불관련 텍스트</div>
+       </div><!-- delivery end -->
+       <div class="seller_info">
+        <div class="tit">
+          <p class="t1">판매자정보</p>
+        </div>
+        <!-- seller_info tit end -->
+        <div class="info">
+          <ul>
+            <li><p>상호명</p><span>상호명</span></li>
+            <li><p>대표자명</p><span> </span></li>
+            <li><p>사업자등록번호</p><span> </span></li>
+            <li><p>통신판매신고번호</p><span> </span></li>
+            <li><p>전화번호</p><span> </span></li>
+            <li><p>이메일</p><span> </span></li>
+            <li><p>주소</p><span> </span></li>
+          </ul>
+        </div>
+        <!-- info end -->
+      </div>
+      <!-- seller_info end -->
+    </div><!-- page_wrap end -->
+   </section><!-- contents end -->
+  </div><!-- contents container -->
+  <footer id="footer">
+   <div class="container">
+    <div class="f1">
+     <ul>
+      <li>고객문의 : cs@cona.world</li>
+      <li><span>|</span></li>
+      <li>제휴문의 : cooperate@cona.world</li>
+     </ul>
+    </div>
+    <!-- f1 end -->
+    <div class="f2">
+     <ul>
+      <li><a href="#">공지사항</a></li>
+      <li><span>></span></li>
+      <li><a href="#">브랜드 스토리</a></li>
+      <li><span>></span></li>
+      <li><a href="#">개인정보처리방침</a></li>
+      <li><span>></span></li>
+      <li><a href="#">서비스 이용약관</a></li>
+      <li><span>></span></li>
+      <li><a href="#">고객상담</a></li>
+      <li><span>></span></li>
+      <li><a href="seller.html">판매자 신청</a></li>
+      <li><span>></span></li>
+      <li><a href="#">사업자 구매회원 신청</a></li>
+      <li><span>></span></li>
+     </ul>
+    </div>
+    <!-- f2 end -->
+    <div class="f3">
+     <ul>
+      <li>대표번호 : 1899-9137 | 주식회사 코나 | 대표이사 : 김라희 | <a href="#">사업자 정보확인</a></li>
+      <li>주소 : 대구광역시 수성구 알파시티1로 36, 7층(대흥동) | 
+       사업자등록번호 : 532-87-01550 | 통신판매업신고번호 : 2020-대구수성구-0872 | Copyright©싱그러운 집 ALL RIGHTS RESERVED.</li>
+       <li>개인정보보호책임자 : 구병모 | 호스팅 제공자 : 주식회사 가비아씨엔에스
+       </li>
+     </ul>
+    </div>
+    <!-- f3 end -->
+    <div class="f4">
+     <p>NICEPAY 안전거래 서비스 : 고객님의 안전거래를 위해 현금 결제 시, 저희 사이트에서 가입한 구매안전 서비스를 이용할 수 있습니다. <a href="#">가입 확인</a></p>
+     <p>㈜코나는 통신판매중개자로서 통신판매의 당사자가 아니며, 입점업체가 등록한 상품, 상품정보 및 거래에 대하여 ㈜코나에서는 일체 책임을 지지 않습니다.</p>
+    </div>
+    <!-- f4 end -->
+   </div>
+   <!-- footer container end -->
+  </footer><!-- footer end -->
+ </div><!-- wrap end -->
+</body>
+</html>

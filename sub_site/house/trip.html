@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>싱그런 여행 | 싱그러운 집</title>
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="./js/common.js" defer></script>
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/trip.css">
+</head>
+<body>
+ <div class="wrap">
+  <header id="header">
+   <div class="h_top">
+    <div class="container">
+     <div class="sns">
+      <ul>
+       <li><a href="#"><img src="./img/sns_google.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_apple.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_instagram.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_facebook.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_kakao.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/sns_youtube.png" alt="x"></a></li>
+      </ul>
+     </div>
+     <!-- sns end -->
+     <div class="login">
+      <ul>
+       <li><a href="login.html">로그인</a></li>
+       <li><a href="joinus.html">회원가입</a></li>
+       <li><a href="seller.html">판매자 신청</a></li>
+      </ul>
+     </div>
+     <!-- login end -->
+    </div>
+    <!-- h_top container end -->
+   </div>
+   <!-- h_top end -->
+   <div class="h_bottom">
+    <div class="container">
+     <div class="logo">
+      <a href="index.html"><img src="./img/logo.png" alt="x"></a>
+     </div>
+     <!-- logo end -->
+     <div class="menu_wrap">
+      <ul>
+       <li><img class="sub_btn" src="./img/menu_b.png" alt="x"><img class="sub_btn_gr" src="./img/menu_g.png" alt="x"></li>
+       <li><a href="./index.html">홈</a></li>
+       <li><a href="./store.html">스토어</a></li>
+       <li><a href="./commun.html">커뮤니티</a></li>
+       <li class="gr"><a href="./trip.html">싱그런 여행</a></li>
+       <li><a href="./interior.html">인테리어/시공</a></li>
+       <li><a href="./market.html">식물마켓</a></li>
+      </ul>
+     </div>
+     <!-- menu_wrap end -->
+     <div class="submenu_wrap">
+      <div class="container">
+       <div class="submenu">
+        <ul>
+         <li><a href="./store.html">스토어</a></li>
+         <li><a href="#">카테고리</a>
+          <ul>
+           <li><a href="#">반려식물</a></li>
+           <li><a href="#">가드닝용품</a></li>
+           <li><a href="#">강아지용품</a></li>
+           <li><a href="#">고양이용품</a></li>
+           <li><a href="#">파충류용품</a></li>
+           <li><a href="#">물고기용품</a></li>
+           <li><a href="#">인테리어</a></li>
+           <li><a href="#">DIY/취미</a></li>
+           <li><a href="#">기타</a></li>
+           <li><a href="#">싱그러운딜</a></li>
+          </ul>
+         </li>
+         <li><a href="#">베스트</a></li>
+         <li><a href="#">기획전</a></li>
+         <li><a href="#">이벤트</a></li>
+        </ul>
+        <ul>
+         <li><a href="./commun.html">커뮤니티</a></li>
+         <li><a href="#">스토리</a>
+          <ul>
+           <li><a href="#">희귀식물</a></li>
+           <li><a href="#">반려식물</a></li>
+           <li><a href="#">가드닝용품</a></li>
+           <li><a href="#">반려동물</a></li>
+           <li><a href="#">인테리어</a></li>
+           <li><a href="#">싱그런 여행</a></li>
+           <li><a href="#">친환경라이프</a></li>
+          </ul>
+         </li>
+         <li><a href="#">싱싱튜브</a></li>
+         <li><a href="#">가이드</a></li>
+         <li><a href="#">매거진</a></li>
+         <li><a href="#">인테리어/시공</a></li>
+        </ul>
+        <ul>
+         <li><a href="./trip.html">싱그런 여행</a></li>
+        </ul>
+        <ul>
+         <li><a href="./interior.html">인테리어/시공</a></li>
+        </ul>
+        <ul>
+         <li><a href="./market.html">식물마켓</a></li>
+        </ul>
+       </div>
+       <!-- submenu container end -->
+      </div>
+      <!-- submenu end -->
+     </div>
+     <!-- submenu_wrap end -->
+     <div class="mypage">
+      <ul>
+       <li><a href="#"><img src="./img/login.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/cart.png" alt="x"></a></li>
+       <li><a href="#"><img src="./img/info.png" alt="x"></a></li>
+       <li class="search"><input type="text" placeholder="싱그러움을 검색하세요"><a href="#"></a><img src="./img/search.png" alt="x"></a></li>
+      </ul>
+     </div>
+     <!-- mypage end -->
+    </div>
+    <!-- h_bottom container end -->
+   </div>
+   <!-- h_bottom end -->
+  </header><!-- header end -->
+  <div class="container">
+   <section id="contents">
+     <div class="trip_tit">
+      <ul>
+       <li><p>싱그런 여행<span>동·식물과 관련된 지역별 추천장소를 소개합니다.</span></p></li>
+       <li><img src="./img/state_share.png" alt="x"></li>
+      </ul>
+     </div><!-- trip_tit end -->
+     <div class="con1">
+      <div class="map_wrap">
+        <div class="bg_map">
+         <p class="area a1">인천</p>
+         <p class="area a2">서울</p>
+         <p class="area a3">강원도</p>
+         <p class="area a4">경기도</p>
+         <p class="area a5">충청남도</p>
+         <p class="area a6">세종</p>
+         <p class="area a7">충청북도</p>
+         <p class="area a8">대전</p>
+         <p class="area a9">경상북도</p>
+         <p class="area a10">전라북도</p>
+         <p class="area a11">대구</p>
+         <p class="area a12">광주</p>
+         <p class="area a13">경상남도</p>
+         <p class="area a14">울산</p>
+         <p class="area a15">전라남도</p>
+         <p class="area a16">부산</p>
+         <p class="area a17">제주도</p>
+        </div><!-- bg_map end -->
+      </div><!-- map_wrap end -->
+      <div class="place_wrap">
+       <div class="place_tit"><p>추천장소</p></div><!-- place_tit end -->
+       <div class="place">
+        <div class="place_info">
+         <ul>
+          <li><img src="./img/con3_ID1.jpg" alt="x"></li>
+          <li><p>[물고기카페]블루문</p><span><img src="./img/place_link.png" alt="x">지도</span><p><span>#아쿠아카페#물고기#남양주#양평#경기도</span></p></li>
+         </ul>
+         <ul>
+          <li><img src="./img/state_like.png" alt="x"><span>0</span></li>
+          <li><img src="./img/state_scrap.png" alt="x"><span>0</span></li>
+          <li><span>></span></li>
+         </ul>
+        </div><!-- place_info1 end -->
+        <div class="place_info">
+         <ul>
+          <li><img src="./img/con3_ID1.jpg" alt="x"></li>
+          <li><p>울산 카페 파이니</p><span><img src="./img/place_link.png" alt="x">지도</span><p><span>#울산#카페파이니#남양주#양평#경기도</span></p></li>
+         </ul>
+         <ul>
+          <li><img src="./img/state_like.png" alt="x"><span>0</span></li>
+          <li><img src="./img/state_scrap.png" alt="x"><span>0</span></li>
+          <li><span>></span></li>
+         </ul>
+        </div><!-- place_info2 end -->
+        <div class="place_info">
+         <ul>
+          <li><img src="./img/con3_ID1.jpg" alt="x"></li>
+          <li><p>[물고기카페]블루문</p><span><img src="./img/place_link.png" alt="x">지도</span><p><span>#아쿠아#물고기#남양주#양평#경기도</span></p></li>
+         </ul>
+         <ul>
+          <li><img src="./img/state_like.png" alt="x"><span>0</span></li>
+          <li><img src="./img/state_scrap.png" alt="x"><span>0</span></li>
+          <li><span>></span></li>
+         </ul>
+        </div><!-- place_info3 end -->
+       </div><!-- place end -->
+       <div class="search_wrap">
+        <form action="" method="post">
+          <ul class="search">
+            <li><select name="city" id="city">
+              <option value="city1">시/도</option>
+              <option value="city2">서울</option>
+              <option value="city3">경기도</option>
+              <option value="city4">인천</option>
+              <option value="city5">강원도</option>
+              <option value="city6">충청남도</option>
+              <option value="city7">대전</option>
+              <option value="city8">충청북도</option>
+              <option value="city9">부산</option>
+              <option value="city10">울산</option>
+              <option value="city11">대구</option>
+              <option value="city12">경상북도</option>
+              <option value="city13">경상남도</option>
+              <option value="city14">전라남도</option>
+              <option value="city15">광주</option>
+              <option value="city16">전라북도</option>
+              <option value="city17">제주</option>
+              <option value="city18">세종</option>
+            </select></li>
+            <li><select name="zone" id="zone">
+              <option value="zone1">구/군</option>
+              <option value="zone2">광산구</option>
+              <option value="zone3">동구</option>
+              <option value="zone4">서구</option>
+              <option value="zone5">남구</option>
+              <option value="zone6">북구</option>
+            </select></li>
+            <li><input type="text" placeholder="장소명 or 해시태그를 검색하세요."></li>
+          </ul><!-- search end -->
+          <ul class="check">
+            <li><p><input type="checkbox" id="check1"><label for="check1">전체</label></p></li>
+            <li><p><input type="checkbox" id="check2"><label for="check2">희귀식물샵</label></p></li>
+            <li><p><input type="checkbox" id="check3"><label for="check3">식물카페</label></p></li>
+            <li><p><input type="checkbox" id="check4"><label for="check4">수목원/공원</label></p></li>
+            <li><p><input type="checkbox" id="check5"><label for="check5">친환경샵</label></p></li>
+            <li><p><input type="checkbox" id="check6"><label for="check6">캠핑/체험/기타</label></p></li>
+            <li><p><input type="checkbox" id="check7"><label for="check7">동물카페</label></p></li>
+            <li><p><input type="checkbox" id="check8"><label for="check8">동물동반숙소</label></p></li>
+            <li><p><input type="checkbox" id="check9"><label for="check9">반려동물호텔</label></p></li>
+          </ul><!-- check end -->
+          <ul class="btn">
+            <li><button type="submit">검색</button></li>
+            <li><button type="reset">초기화</button></li>
+          </ul><!-- btn end -->
+          <ul class="apply">
+            <li><button type="submit"><p>나의 싱그러운 라이프를 소개해주세요.</p><span>신청하기</span></button></li>
+          </ul><!-- apply end -->
+        </form>
+       </div><!-- search_wrap end -->
+      </div><!-- place_wrap end -->
+     </div><!-- con1 end -->
+     <div class="con2">
+      <div class="tit"><p class="t1">LIST<span>0</span></p></div><!-- con2 tit end -->
+      <div class="list_wrap">
+        <div class="list">
+          <a href="#">
+            <p class="tit">가산수피아</p>
+            <ul class="address">
+              <li><img src="./img/place.png" alt="x"><p>경북 칠곡군 가산면 학하들안2길 105 가수피아</p></li>
+            </ul>
+            <ul class="list_img">
+              <li><img src="./img/list_img1.jpg" alt="x"></li>
+              <li><img src="./img/list_img2.jpg" alt="x"></li>
+              <li><img src="./img/list_img3.jpg" alt="x"></li>
+            </ul>
+            <ul class="tag">
+              <li><p>#가산수피아#산책로#핑크뮬리</p></li>
+            </ul>
+          </a>
+          <ul class="like_box">
+            <li><a href="#"><img src="./img/place_link.png" alt="x"><p>지도 보기</p></a></li>
+            <li><p><img src="./img/state_like.png" alt="x"><span>0</span></p>
+            <p><img src="./img/state_scrap.png" alt="x"><span>0</span></p></li>
+          </ul>
+        </div><!-- list1 end -->
+        <div class="list">
+          <a href="#">
+            <p class="tit">제주도 자드부팡</p>
+            <ul class="address">
+              <li><img src="./img/place.png" alt="x"><p>제주특별자치도 제주시 조천읍 북흘로 385-216 자드부팡</p></li>
+            </ul>
+            <ul class="list_img">
+              <li><img src="./img/list_img4.jpg" alt="x"></li>
+              <li><img src="./img/list_img5.jpg" alt="x"></li>
+              <li><img src="./img/list_img6.jpg" alt="x"></li>
+            </ul>
+            <ul class="tag">
+              <li><p>#제주도#애견동반카페#예쁜카페#강아지</p></li>
+            </ul>
+          </a>
+          <ul class="like_box">
+            <li><a href="#"><img src="./img/place_link.png" alt="x"><p>지도 보기</p></a></li>
+            <li><p><img src="./img/state_like.png" alt="x"><span>0</span></p>
+            <p><img src="./img/state_scrap.png" alt="x"><span>0</span></p></li>
+          </ul>
+        </div><!-- list2 end -->
+        <div class="list">
+          <a href="#">
+            <p class="tit">반려동물동반숙소 [디어마이펫]</p>
+            <ul class="address">
+              <li><img src="./img/place.png" alt="x"><p>전북 완주군 상관면 월암길 30-42 디어마이펫</p></li>
+            </ul>
+            <ul class="list_img">
+              <li><img src="./img/list_img7.jpg" alt="x"></li>
+              <li><img src="./img/list_img8.jpg" alt="x"></li>
+              <li><img src="./img/list_img9.jpg" alt="x"></li>
+            </ul>
+            <ul class="tag">
+              <li><p>#강아지#동반#숙소#전북#완주</p></li>
+            </ul>
+          </a>
+          <ul class="like_box">
+            <li><a href="#"><img src="./img/place_link.png" alt="x"><p>지도 보기</p></a></li>
+            <li><p><img src="./img/state_like.png" alt="x"><span>0</span></p>
+            <p><img src="./img/state_scrap.png" alt="x"><span>0</span></p></li>
+          </ul>
+        </div><!-- list3 end -->
+        <div class="list">
+          <a href="#">
+            <p class="tit">고양이호텔 [잔다냥]</p>
+            <ul class="address">
+              <li><img src="./img/place.png" alt="x"><p>대전 서구 계룡로 381 3층 잔다냥</p></li>
+            </ul>
+            <ul class="list_img">
+              <li><img src="./img/list_img10.jpg" alt="x"></li>
+              <li><img src="./img/list_img11.jpg" alt="x"></li>
+              <li><img src="./img/list_img12.jpg" alt="x"></li>
+            </ul>
+            <ul class="tag">
+              <li><p>#고양이#호텔링#미용#대전</p></li>
+            </ul>
+          </a>
+          <ul class="like_box">
+            <li><a href="#"><img src="./img/place_link.png" alt="x"><p>지도 보기</p></a></li>
+            <li><p><img src="./img/state_like.png" alt="x"><span>0</span></p>
+            <p><img src="./img/state_scrap.png" alt="x"><span>0</span></p></li>
+          </ul>
+        </div><!-- list4 end -->
+        <div class="list">
+          <a href="#">
+            <p class="tit">애견카페 [푸르댕댕]</p>
+            <ul class="address">
+              <li><img src="./img/place.png" alt="x"><p>충북 청주시 서원구 남이면 구암길 6-17 푸르댕댕</p></li>
+            </ul>
+            <ul class="list_img">
+              <li><img src="./img/list_img13.jpg" alt="x"></li>
+              <li><img src="./img/list_img14.jpg" alt="x"></li>
+              <li><img src="./img/list_img15.jpg" alt="x"></li>
+            </ul>
+            <ul class="tag">
+              <li><p>#운동장#수영장#카페#강아지#청주</p></li>
+            </ul>
+          </a>
+          <ul class="like_box">
+            <li><a href="#"><img src="./img/place_link.png" alt="x"><p>지도 보기</p></a></li>
+            <li><p><img src="./img/state_like.png" alt="x"><span>0</span></p>
+            <p><img src="./img/state_scrap.png" alt="x"><span>0</span></p></li>
+          </ul>
+        </div><!-- list5 end -->
+        <div class="list">
+          <a href="#">
+            <p class="tit">애견호텔 [호텔멍]</p>
+            <ul class="address">
+              <li><img src="./img/place.png" alt="x"><p>충북 청주시 흥덕구 2순환로1340번길 2 호텔멍</p></li>
+            </ul>
+            <ul class="list_img">
+              <li><img src="./img/list_img16.jpg" alt="x"></li>
+              <li><img src="./img/list_img17.jpg" alt="x"></li>
+              <li><img src="./img/list_img18.jpg" alt="x"></li>
+            </ul>
+            <ul class="tag">
+              <li><p>#호텔#유치원#충북#청주#호텔링</p></li>
+            </ul>
+          </a>
+          <ul class="like_box">
+            <li><a href="#"><img src="./img/place_link.png" alt="x"><p>지도 보기</p></a></li>
+            <li><p><img src="./img/state_like.png" alt="x"><span>0</span></p>
+            <p><img src="./img/state_scrap.png" alt="x"><span>0</span></p></li>
+          </ul>
+        </div><!-- list6 end -->
+      </div><!-- list_wrap end -->
+     </div><!-- con2 end -->
+   </section><!-- contents end -->
+  </div><!-- contents container end -->
+  <footer id="footer">
+   <div class="container">
+    <div class="f1">
+     <ul>
+      <li>고객문의 : cs@cona.world</li>
+      <li><span>|</span></li>
+      <li>제휴문의 : cooperate@cona.world</li>
+     </ul>
+    </div>
+    <!-- f1 end -->
+    <div class="f2">
+     <ul>
+      <li><a href="#">공지사항</a></li>
+      <li><span>></span></li>
+      <li><a href="#">브랜드 스토리</a></li>
+      <li><span>></span></li>
+      <li><a href="#">개인정보처리방침</a></li>
+      <li><span>></span></li>
+      <li><a href="#">서비스 이용약관</a></li>
+      <li><span>></span></li>
+      <li><a href="#">고객상담</a></li>
+      <li><span>></span></li>
+      <li><a href="seller.html">판매자 신청</a></li>
+      <li><span>></span></li>
+      <li><a href="#">사업자 구매회원 신청</a></li>
+      <li><span>></span></li>
+     </ul>
+    </div>
+    <!-- f2 end -->
+    <div class="f3">
+     <ul>
+      <li>대표번호 : 1899-9137 | 주식회사 코나 | 대표이사 : 김라희 | <a href="#">사업자 정보확인</a></li>
+      <li>주소 : 대구광역시 수성구 알파시티1로 36, 7층(대흥동) | 
+       사업자등록번호 : 532-87-01550 | 통신판매업신고번호 : 2020-대구수성구-0872 | Copyright©싱그러운 집 ALL RIGHTS RESERVED.</li>
+       <li>개인정보보호책임자 : 구병모 | 호스팅 제공자 : 주식회사 가비아씨엔에스
+       </li>
+     </ul>
+    </div>
+    <!-- f3 end -->
+    <div class="f4">
+     <p>NICEPAY 안전거래 서비스 : 고객님의 안전거래를 위해 현금 결제 시, 저희 사이트에서 가입한 구매안전 서비스를 이용할 수 있습니다. <a href="#">가입 확인</a></p>
+     <p>㈜코나는 통신판매중개자로서 통신판매의 당사자가 아니며, 입점업체가 등록한 상품, 상품정보 및 거래에 대하여 ㈜코나에서는 일체 책임을 지지 않습니다.</p>
+    </div>
+    <!-- f4 end -->
+   </div>
+   <!-- footer container end -->
+  </footer><!-- footer end -->
+ </div><!-- wrap end -->
+</body>
+</html>

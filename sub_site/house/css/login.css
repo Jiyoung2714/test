@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+.spoka * { font-family:'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';}
+html,body{width:100%; height:100%; font-family:'Spoqa Han Sans'; background:#fff; color:#333;}
+
+.wrap{width:100%; height:100%;}
+.container{width:1200px; height:100%; margin:0 auto;}
+
+#header{width:100%; height:50px; background:#eee;}
+#header>.container{display:flex; justify-content:space-between;}
+.sns{height:100%;}
+.sns>ul{height:100%; display:flex; align-items:center;}
+.sns>ul>li{margin-right:5px;}
+.sns>ul>li>a>img{background:#fff; border-radius:100%; border:1px solid #ddd;}
+
+.login{height:100%;}
+.login>ul{height:100%; display:flex; align-items:center; font-size:0.8em; color:#666;}
+.login>ul>li{margin-left:10px;}
+.login>ul>li:hover{text-decoration:underline;}
+
+
+#contents{width:100%; height:calc(100% - 150px); display:flex; justify-content:center; align-items:center;}
+.login_wrap{width:400px; height:100%;}
+.login_wrap>div{width:100%; height:auto;}
+.login_wrap li{width:100%; height:60px;}
+.login_wrap button{width:100%; height:50px; border:none; border-radius:5px; color:#fff; font-size:1em; background:#000; cursor:pointer;}
+.login_wrap button>img{height:15px; margin-right:10px;}
+
+.login_wrap>div.logo{height:100px; display:flex; justify-content:center; align-items:flex-start;}
+.logo img{height:40px;}
+
+.info>ul{width:100%;}
+.info>ul>li>input{width:100%; height:50px; border:1px solid #ddd; border-radius:5px; padding:0 20px; box-sizing:border-box;}
+.info>ul>li:last-child{display:flex; justify-content:space-between;}
+.info>ul>li:last-child>p{font-size:1em; color:#333;}
+.info>ul>li:last-child>p>input{margin-right:5px;}
+/* .info>ul>li:last-child>p>input[type="checkbox"]{width:20px; height:20px;} */
+.info>ul>li:last-child>p>a{display:inline-block; margin-left:15px; font-size:0.8em; color:#888;}
+.info>ul>li:last-child>p:last-child>a::after{content:"|"; position:relative; right:-8px;}
+.info>ul>li:last-child>p:last-child>a:last-child::after{display:none;}
+
+.sns_login>p{width:100%; text-align:center; color:#777; font-size:0.85em; line-height:30px;}
+.sns_login>p::before{content:" "; width:160px; height:1px; background:#ddd; position:relative; top:16px; left:0; display:block;}
+.sns_login>p::after{content:" "; width:160px; height:1px; background:#ddd; position:relative; top:-14px; left:240px; display:block;}
+.sns_login button.kakao{background:#ffc20f; color:#333;}
+.sns_login button.naver{background:#2db400;}
+.sns_login button.facebook{background:#3a5894;}
+.sns_login button.apple{background:#d9d9d9; color:#333;}
+
+
+#footer{width:100%; height:100px; text-align:center; font-size:0.9em; color:#888;}
