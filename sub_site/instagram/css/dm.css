@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+.wrap{width:100%; height:100%; display:flex;}
+
+.menu>ul{width:100%; height:auto;}
+.menu>ul>li{width:100%; height:50px;}
+.menu>ul>li>a{width:100%; height:100%; display:flex; align-items:center; padding-left:12px; box-sizing:border-box; font-weight:600;}
+.menu>ul>li:hover>a{background:#ddd; border-radius:10px;}
+
+.submenu_wrap{width:70px; height:100%; background:#fff; border-right:1px solid #ddd; position:relative; top:0; left:0; display:flex; flex-wrap:wrap; align-content:space-between; padding:10px; box-sizing:border-box;}
+.submenu_wrap>.menu>.logo img{width:50px; height:50px;}
+
+.search_wrap{position:absolute; top:0; left:-400px; width:350px; height:100%; border-right:1px solid #ddd; background:#fff; border-radius:0 15px 15px 0; box-shadow:3px 0 5px #ddd;}
+/* border-top-right-radius:값; */
+.search{width:100%; height:20%; border-bottom:1px solid #ddd; padding:30px 20px; box-sizing:border-box;}
+.search>.tit{width:100%; height:70%; font-size:23px; font-weight:800;}
+.search>.txt{width:100%; height:30%;}
+.search>.txt>form{width:100%; height:100%;}
+.search>.txt>form>input{width:100%; height:40px; border:none; background:#eee; border-radius:5px; padding:0 10px;}
+
+.recent{width:100%; height:80%; padding:0 20px; box-sizing:border-box;}
+.recent>.tit{width:100%; height:10%; font-size:18px; font-weight:bold; display:flex; align-items:center;}
+.recent>.txt{width:100%; height:90%; display:flex; align-items:center; justify-content:center; font-size:14px; color:#666;}
+
+.alram_wrap{position:absolute; top:0; left:-400px; width:350px; height:100%; border-right:1px solid #ddd; background:#fff; border-radius:0 15px 15px 0; box-shadow:3px 0 5px #ddd;}
+.alram{width:100%; height:auto; padding:10px 20px; box-sizing:border-box; border-bottom:1px solid #ddd;}
+.alram>p{width:100%; height:10%; font-size:23px; font-weight:bold;}
+.alram>ul{width:100%; height:auto;}
+.alram>ul>li{width:100%; height:40px; line-height:40px; font-weight:bold;}
+.alram>ul>.follow{width:100%; height:50px; font-size:14px; font-weight:normal; padding:10px 0;}
+.alram>ul>.follow>ul{width:100%; height:100%; display:flex; justify-content:space-between; align-items:center;}
+.alram>ul>.follow>ul>li:first-child{width:80%; height:100%; display:flex; align-items:center; line-height:20px;}
+.alram>ul>.follow>ul>li>span{display:block; width:60px; background:#0095f6; color:#fff; text-align:center; height:30px; line-height:30px; border-radius:5px; cursor:pointer;}
+.alram>ul>.follow img{width:50px; height:50px; border-radius:100%; margin-right:10px;}
+
+.create_wrap{width:100%; height:100%; background:#000000c2; position:absolute; top:0; left:0; z-index:100; display:none;}
+.create_wrap>p{position:absolute; top:0; right:10px; color:#fff; font-size:30px; cursor:default;}
+.create{width:600px; height:700px; background:#fff; position:absolute; top:0; left:0; bottom:0; right:0; margin:auto; border-radius:8px;}
+.create>.tit{width:100%; height:50px; border-bottom:1px solid #ddd; text-align:center; line-height:50px; box-sizing:border-box;}
+.create>.txt{width:100%; height:650px; display:flex; align-items:center; justify-content:center; text-align:center;}
+.create>.txt>ul>li{width:100%; margin:20px 0; font-size:18px;}
+.create #file{display:none;}
+.create>.txt>ul>li>label{background:#0095f6; padding:10px 15px; border-radius:5px; color:#fff; font-size:15px;}
+
+#banner{width:350px; height:100%; border-right:1px solid #ddd; box-sizing:border-box;}
+.dm_tit{width:100%; height:150px; border-bottom:1px solid #ddd; padding:40px; box-sizing:border-box; padding-bottom:0;}
+.dm_tit>ul{height:50px; display:flex; align-items:center; justify-content:space-between; line-height:50px;}
+.dm_tit>ul:first-child>li>p{font-size:20px;}
+.dm_tit>ul>li>p{font-size:18px; font-weight:bold;}
+
+.dm_txt{width:100%; height:calc(100% - 150px); overflow:scroll;}
+.dm_txt::-webkit-scrollbar{display:none;}
+.dm_txt>ul{margin:20px;}
+.dm_txt>ul>a{width:100%; height:100%; display:flex; align-items:center;}
+.dm_txt>ul img{width:50px; height:50px; border-radius:100%; margin-right:15px;}
+.dm_txt>ul>a>li>p{font-weight:bold; line-height:25px;}
+.dm_txt>ul>a>li>span{font-size:14px; color:#666;}
+
+#contents{width:calc(100% - 420px); height:100%; display:flex;align-items:center; justify-content:center;}
+.dm_wrap>ul{display:flex; flex-wrap:wrap; justify-content:center;}
+.dm_wrap>ul>li:first-child{width:80px; height:80px; border:2px solid #111; border-radius:100%; display:flex; align-items:center; justify-content:center; margin-bottom:15px;}
+.dm_wrap>ul>li{width:100%; text-align:center; line-height:30px; display:flex; justify-content:center;}
+.dm_wrap>ul>li>p{font-weight:bold;}
+.dm_wrap>ul>li>span{color:#666;}
+.dm_wrap>ul>li>.dm{background:#0095f6; color:#fff; width:150px; height:35px; line-height:35px; border-radius:8px; font-weight:normal; margin-top:10px; cursor:pointer;}
+
+.send_wrap{width:100%; height:100%; background:#000000c2; border-radius:10px; position:absolute; top:0; left:0; z-index:100; display:flex; justify-content:center; align-items:center; display:none;}
+.send{width:500px; height:600px; background:#fff; border-radius:10px;}
+.send_tit{width:100%; height:50px; border-bottom:1px solid #ddd; line-height:50px; box-sizing:border-box; font-weight:bold; text-align:center; position:relative;}
+.send_tit>.send_close{position:absolute; top:0; right:20px; font-size:18px; cursor:pointer;}
+.send_txt{width:100%; height:550px;}
+.send_txt>form{width:100%; height:100%;}
+.send_txt>form>.to{width:100%; height:40px; border-bottom:1px solid #ddd; box-sizing:border-box;}
+.send_txt>form>.to>ul{width:100%; height:100%; display:flex; align-items:center; padding:0 10px; box-sizing:border-box; font-weight:bold;}
+.send_txt>form>.to>ul>li>input{width:400px; height:35px; border:none; padding:0 10px;}
+.send_txt>form>.chat{width:100%; height:430px; padding:10px; box-sizing:border; color:#666;}
+.send_txt>form>.chat_btn{width:100%; height:60px; padding:10px; box-sizing:border-box;}
+.send_txt>form>.chat_btn>button{color:#fff; width:100%; height:40px; border:none; background:#0095f6; border-radius:8px; cursor:pointer;}

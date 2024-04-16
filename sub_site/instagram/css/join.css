@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.wrap{width:900px; height:100%; display:flex; flex-wrap:wrap; margin:0 auto; padding:15px 0; box-sizing:border-box;}
+
+#contents{width:100%; height:calc(100% - 80px);}
+.join_wrap{width:350px; height:100%; margin:0 auto; padding-bottom:50px; box-sizing:border-box; display:flex; flex-wrap:wrap; align-content:space-around;}
+
+.join{width:100%; height:75%; border:1px solid #ddd; box-sizing:border-box; padding:0 50px;}
+
+.logo{width:100%; height:17%; display:flex; justify-content:center; align-items:flex-end; padding-bottom:10px; box-sizing:border-box;}
+
+.f_login{width:100%; height:18%; display:flex; flex-wrap:wrap; align-content:space-around;}
+.f_login>p{width:100%; height:50%; font-size:18px; text-align:center; color:#666;}
+.f_login>button{width:100%; height:35%; border:none; background:#0095f6; color:#fff; border-radius:8px; font-weight:bold; font-size:13px; margin-top:7px; }
+.f_login>button>a{display:flex; justify-content:center; align-items:center;}
+.f_login>button>a>img{ margin-right:10px;}
+
+.or{width:100%; height:10%; display:flex; align-items:center;}
+.or>span{display:block; width:100%; height:1px; background:#ddd;}
+.or>p{width:200px; text-align:center; color:#666; font-size:14px;}
+
+.insta_join{width:100%; height:53%; display:flex; flex-wrap:wrap; align-content:space-around;}
+.insta_join>form{width:100%; height:55%; display:flex; flex-wrap:wrap; align-content:space-between;}
+.insta_join>form>p{width:100%; height:40px;}
+.insta_join>form>p>input{width:100%; height:100%; border-color:#ddd; padding:0 8px; background:#eeeeee49;}
+
+.join_button{width:100%; height:40%; padding:10px 0; box-sizing:border-box;}
+.join_button>ul{width:100%; height:100%;}
+.join_button>ul>li{width:100%; height:50%; display:flex; flex-wrap:wrap; align-content:space-around;}
+.join_button>ul>li>p{width:100%; height:100%; font-size:13px; text-align:center; color:#666;}
+.join_button>ul>li>p>a{color:#00376b; font-size:14px;}
+.join_button>ul>li:last-child{margin-top:5px;}
+.join_button>ul>li>button{width:100%; height:30px; border:none; background:#4cb5f9; color:#fff; border-radius:8px; font-weight:bold; font-size:15px; cursor:pointer;}
+
+.login{width:100%; height:10%; border:1px solid #ddd; box-sizing:border-box;}
+.login>ul{width:100%; height:100%;}
+.login>ul>li{width:100%; height:100%; display:flex; justify-content:center; align-items:center; font-size:15px;}
+.login>ul>li>a{color:#00a2f8; font-weight:bold; margin-left:10px;}
+
+.app{width:100%; height:10%;}
+.app>ul{width:100%; height:100%; display:flex; flex-wrap:wrap; justify-content:center; align-content:space-around;}
+.app>ul>li:first-child{width:100%; text-align:center;}
+.app>ul>li>img{height:40px; padding-left:5px; box-sizing:border-box;}
+
+#footer{width:100%; height:80px; color:#737373; font-size:13px;}
+.f_menu{width:100%; height:50%;}
+.f_menu>ul{width:100%; height:100%; display:flex; justify-content:space-between; align-items:center;}
+.copy{width:100%; height:50%; display:flex; justify-content:center; align-items:center;}

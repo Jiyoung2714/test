@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Instagram</title>
+ <link rel="icon" href="./img/favicon_1.png">
+ <link rel="stylesheet" href="./css/reset.css">
+ <link rel="stylesheet" href="./css/explorer.css">
+ <script src="./js/submenu.js" defer></script>
+ <script src="./js/explorer_script.js" defer></script>
+</head>
+<body>
+ <div class="wrap">
+  <header id="header">
+   <div class="menu">
+    <div class="logo">
+     <a href="index.html"><img src="./img/login_textlogo.png" alt="x"></a>
+    </div>
+    <ul>
+     <li><a href="index.html"><img src="./img/home.png" alt="x"><p>홈</p></a></li>
+     <li id="sbtn"><a href="#"><img src="./img/search.png" alt="x"><p>검색</p></a></li>
+     <li><a href="explorer.html"><img src="./img/explore.png" alt="x"><p>탐색</p></a></li>
+     <li><a href="reels.html"><img src="./img/reels.png" alt="x"><p>릴스</p></a></li>
+     <li><a href="dm.html"><img src="./img/dm.png" alt="x"><p>메세지</p></a></li>
+     <li id="abtn"><a href="#"><img src="./img/like.png" alt="x"><p>알림</p></a></li>
+     <li id="cbtn" onclick="Cclick()"><a href="#"><img src="./img/create.png" alt="x"><p>만들기</p></a></li>
+     <li><a href="profile.html"><img src="./img/profile.png" alt="x"><p>프로필</p></a></li>
+    </ul>
+    <!-- logo end -->
+   </div>
+   <!-- menu1 end -->
+   <div class="menu">
+    <ul>
+     <li><a href="#"><img src="./img/threades.png" alt="x"><p>Threades</p></a></li>
+     <li><a href="#"><img src="./img/hamMenu.png" alt="x"><p>더보기</p></a></li>
+    </ul>
+   </div>
+   <!-- menu2 end -->
+   <div class="submenu_wrap">
+    <div class="menu">
+     <div class="logo">
+      <a href="index.html"><img src="./img/favicon.png" alt="x"></a>
+     </div>
+     <ul>
+      <li><a href="index.html"><img src="./img/home.png" alt="x"></a></li>
+      <li id="sub_sbtn"><a href="#"><img src="./img/search.png" alt="x"></a></li>
+      <li><a href="explorer.html"><img src="./img/explore.png" alt="x"></a></li>
+      <li><a href="reels.html"><img src="./img/reels.png" alt="x"></a></li>
+      <li><a href="dm.html"><img src="./img/dm.png" alt="x"></a></li>
+      <li id="sub_abtn"><a href="#"><img src="./img/like.png" alt="x"></a></li>
+      <li id="sub_cbtn" onclick="Cclick()"><a href="#"><img src="./img/create.png" alt="x"></a></li>
+      <li><a href="profile.html"><img src="./img/profile.png" alt="x"></a></li>
+     </ul>
+     <!-- logo end -->
+    </div>
+    <!-- menu1 end -->
+    <div class="menu">
+     <ul>
+      <li><a href="#"><img src="./img/threades.png" alt="x"></a></li>
+      <li><a href="#"><img src="./img/hamMenu.png" alt="x"></a></li>
+     </ul>
+    </div>
+   </div>
+   <!-- submenu_wrap end -->
+   <div class="search_wrap">
+    <div class="search">
+     <div class="tit">검색</div>
+     <div class="txt">
+      <form action="" method="get">
+       <input type="text" placeholder="검색어를 입력하세요">
+      </form>
+     </div>
+    </div>
+    <!-- search end -->
+    <div class="recent">
+     <div class="tit">최근 검색 항목</div>
+     <div class="txt">최근 검색내역 없음</div>
+    </div>
+    <!-- recent end -->
+   </div>
+   <!-- search_wrap end -->
+   <div class="alram_wrap">
+    <div class="alram">
+     <p>알림</p>
+     <ul>
+      <li>이번 주</li>
+      <li class="follow">
+       <ul>
+        <li><img src="./img/main_pro2.PNG" alt="x">
+        <p>This is an area that provides new news.</p></li>
+        <li><span>팔로우</span></li>
+       </ul>
+      </li>
+     </ul>
+    </div>
+    <!-- alram1 end -->
+    <div class="alram">
+     <ul>
+      <li>이번 달</li>
+      <li class="follow">
+       <ul>
+        <li><img src="./img/main_pro3.PNG" alt="x">
+        <p>Insta_ID3님이 회원님을 팔로우하기 시작했습니다.</p></li>
+        <li><span>팔로우</span></li>
+       </ul>
+      </li>
+      <!-- follow1 end -->
+      <li class="follow">
+       <ul>
+        <li><img src="./img/main_pro5.PNG" alt="x">
+        <p>Insta_ID5님이 회원님을 팔로우하기 시작했습니다.</p></li>
+        <li><span>팔로우</span></li>
+       </ul>
+      </li>
+      <!-- follow2 end -->
+      <li class="follow">
+       <ul>
+        <li><img src="./img/post_img2.PNG" alt="x"><p>회원님이 알 수도 있는 Insta_ID7님이 Instagram을 사용 중입니다.</p></li>
+        <li><span>팔로우</span></li>
+       </ul>
+      </li>
+      <!-- follow3 end -->
+     </ul>
+    </div>
+    <!-- alram2 end -->
+    <div class="alram">
+     <ul>
+      <li>이전 활동</li>
+      <li class="follow">
+       <ul>
+        <li><img src="./img/main_pro4.PNG" alt="x"><p>회원님이 알 수도 있는 Insta_ID4님이 Instagram을 사용 중입니다.</p></li>
+        <li><span>팔로우</span></li>
+       </ul>
+      </li>
+      <!-- follow1 end -->
+      <li class="follow">
+       <ul>
+        <li><img src="./img/main_pro6.PNG" alt="x"><p>회원님이 알 수도 있는 Insta_ID6님이 Instagram을 사용 중입니다.</p></li>
+        <li><span>팔로우</span></li>
+       </ul>
+      </li>
+      <!-- follow2 end -->
+     </ul>
+    </div>
+    <!-- alram3 end -->
+   </div>
+   <!-- alram_wrap end -->
+   <div class="create_wrap">
+    <div class="create">
+     <div class="tit">새 게시물 만들기</div>
+     <div class="txt">
+      <ul>
+       <li><img src="" alt="x"></li>
+       <li><p>사진과 동영상을 여기에 끌어다 놓으세요.</p></li>
+       <li>
+        <label for="file">컴퓨터에서 선택</label>
+        <input type="file" id="file" name="file">
+       </li>
+      </ul>
+     </div>
+    </div>
+    <p class="close" onclick="Cloclick()">X</p>
+   </div>
+   <!-- create_wrap end -->
+  </header>
+  <!-- header end -->
+  <section id="contents">
+   <div class="explorer_wrap">
+   <!-- script에서 출력 -->
+    <!-- <div class="explorer none"></div> -->
+    <!-- 정렬위한 빈박스 -->
+   </div>
+   <!-- explorer_wrap end -->
+  </section>
+  <!-- contents end -->
+ </div>
+</body>
+</html>
