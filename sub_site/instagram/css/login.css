@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.wrap{width:900px; height:100%; display:flex; flex-wrap:wrap; margin:0 auto; padding:100px 0 50px 0; box-sizing:border-box;}
+#banner{width:450px; height:calc(100% - 80px); display:flex; justify-content:flex-end; align-items:flex-start; position:relative;}
+.slide_wrap{position:absolute; top:25px; left:141px;}
+.slide{position:absolute; top:0; left:0;}
+
+#contents{width:450px; height:calc(100% - 80px);}
+.login_wrap{width:350px; height:600px; display:flex; flex-wrap:wrap; align-content:space-around;}
+.login_box{width:100%; height:70%; border:1px solid #ddd; box-sizing:border-box; padding:0 35px;}
+.logo{width:100%; height:34%; display:flex; justify-content:center; align-items:center;}
+.login{width:100%; height:30%;}
+.login>form{width:100%; height:93%; display:flex; flex-wrap:wrap; align-content:space-between;}
+.login>form>p{width:100%; height:35px;}
+.login>form>p>input{width:100%; height:100%; border-color:#ddd; padding:0 8px;background:#eeeeee49;}
+.login>form>p>button{width:100%; height:100%; border:none; background:#4cb5f9; color:#fff; border-radius:8px; font-weight:bold; font-size:15px; margin-top:7px;}
+
+.or{width:100%; height:13%; display:flex; align-items:center;}
+.or>span{display:block; width:100%; height:1px; background:#ddd;}
+.or>p{width:200px; text-align:center; color:#666; font-size:14px;}
+
+.f_login{width:100%; height:13%;}
+.f_login>p{width:100%; height:100%;}
+.f_login>p>a{width:100%; height:100%; display:flex; align-items:center; justify-content:center; color:#385185; font-weight:bold; font-size:14px;}
+.f_login>p>a>img{margin-right:10px;}
+
+.password{width:100%; height:5%; display:flex; justify-content:center; align-items:center; color:#00376b; font-size:12px;}
+
+.join{width:100%; height:10%; border:1px solid #ddd; box-sizing:border-box;}
+.join>ul{width:100%; height:100%;}
+.join>ul>li{width:100%; height:100%; display:flex; justify-content:center; align-items:center; font-size:14px;}
+.join>ul>li>a{color:#00a2f8; font-weight:bold; margin-left:10px;}
+
+.app{width:100%; height:15%;}
+.app>ul{width:100%; height:100%; display:flex; flex-wrap:wrap; justify-content:center; align-content:space-around;}
+.app>ul>li:first-child{width:100%; text-align:center;}
+.app>ul>li>img{height:40px; padding-left:5px; box-sizing:border-box;}
+
+#footer{width:100%; height:80px; color:#737373; font-size:13px;}
+.f_menu{width:100%; height:50%;}
+.f_menu>ul{width:100%; height:100%; display:flex; justify-content:space-between; align-items:center;}
+.copy{width:100%; height:50%; display:flex; justify-content:center; align-items:center;}
